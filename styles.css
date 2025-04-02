@@ -125,11 +125,17 @@ header {
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .cta-button:hover {
     background-color: var(--color-turquoise);
     transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 /* Sección Misión */
